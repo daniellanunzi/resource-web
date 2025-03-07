@@ -1,0 +1,287 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#ballet-shoes {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 40px;
+    height: 80px;
+}
+
+#top-line {
+    margin-top: 20px;
+}
+
+.nav-bar {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Bodoni Moda", serif;
+    margin-left: 50px;
+}
+
+.nav-bar:hover, .nav-bar:active {
+    background-color: pink;
+    color: black;
+}
+
+#bottom-line {
+    margin-top: 10px;
+}
+
+
+.title-cursive {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    font-size: 250px;
+    font-family: "Ballet", serif;
+    color: white;
+}
+
+.title-cursive:hover {
+    color: pink;
+}
+
+#timeline-intro-container {
+    background-color: black;
+    left: 50px;
+    width: 80%;
+    height: 150px;
+    position: relative;
+    top: 400px;
+}
+
+
+.timeline-intro {
+    color: white;
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-size: 25px;
+    text-align: left;
+    left: 30px;
+    position: absolute;
+}
+
+#timeline-container {
+    background-color: black;
+    width: 100%;
+    height: 5000px;
+    position: relative;
+    top: 500px;
+}
+
+#timeline {
+    position: relative;
+    rotate: 90deg;
+    top: 700px;
+}
+
+#timeline-2 {
+    position: relative;
+    rotate: 90deg;
+    top: 2150px;
+}
+
+#timeline-3 {
+    position: relative;
+    rotate: 90deg;
+    top: 3500px;
+}
+
+#timeline-4 {
+    position: relative;
+    rotate: 90deg;
+    top: 4900px;
+}
+
+#timeline-5 {
+    position: relative;
+    rotate: 90deg;
+    top: 5900
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.from-left {
+    transform: translateX(-50%);
+    transition: 
+        opacity 250ms ease-in,
+        transform 400ms ease-in;
+    opacity: 0;
+}
+
+.from-right {
+    transform: translateX(50%);
+    transition: 
+        opacity 250ms ease-in,
+        transform 400ms ease-in;
+    opacity: 0;
+}
+
+.from-left.appear {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.from-right.appear {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+#box-left {
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    left: 125px;
+}
+
+#box-right {
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    left: 925px;
+}
+
+.image {
+    object-fit: cover;
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;    
+    text-align: center;
+}
+
+#box-left:hover .image {
+    opacity: .10;
+}
+
+#box-left:hover .middle {
+    opacity: 1;
+}
+
+#box-right:hover .image {
+    opacity: .10;
+}
+
+#box-right:hover .middle {
+    opacity: 1;
+}
+
+.heading {
+    position: absolute;
+    top: -500px;
+    left: 30px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    color: black;
+}
+
+.heading-2 {
+    position: absolute;
+    font-family: "Ballet", serif;
+    font-size: 80px;
+    color: pink;
+    top: -480px;
+    left: 215px;
+}
+
+.body-copy {
+    position: relative;
+    color: black;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 150px;
+    top: -300px;
+}
+
+.image-source-link {
+    position: relative;
+    color: grey;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: -140px;
+    right: -160px;
+}
+
+.image-2-source-link {
+    position: relative;
+    color: grey;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: -310px;
+    right: -160px;
+}
+
+.image-3-source-link {
+    position: relative;
+    color: grey;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: -185px;
+    right: -160px;
+}
+
+.image-4-source-link {
+    position: relative;
+    color: grey;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: -245px;
+    right: -160px;
+}
+
+.image-5-source-link {
+    position: relative;
+    color: grey;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: -225px;
+    right: -160px;
+}
+
+.image-6-source-link {
+    position: relative;
+    color: grey;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: -170px;
+    right: -160px;
+}
+
+
+
+
