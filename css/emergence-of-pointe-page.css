@@ -98,6 +98,10 @@ body {
     top: 450px;
 }
 
+.what-is-pointe-container:hover{
+    cursor: pointer;
+}
+
 #what-is-pointe-subheading-1 {
     position: absolute;
     text-align: left;
@@ -162,12 +166,6 @@ body {
     position: absolute;
     left: 650px;
     top: 50px;
-}
-
-#down-arrow:hover {
-    cursor: pointer;
-    width: 3%;
-    top: 40px;
 }
 
 #pointe-shoe-diagram-container {
