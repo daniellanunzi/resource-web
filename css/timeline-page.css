@@ -54,7 +54,6 @@ body {
     top: 400px;
 }
 
-
 .timeline-intro {
     color: white;
     font-family: "Bodoni Moda", serif;
@@ -282,6 +281,28 @@ body {
     right: -160px;
 }
 
+.source-link-1 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    left: 90px;
+    top: 700px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-
-
+.source-link-2 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    left: 340px;
+    top: 700px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

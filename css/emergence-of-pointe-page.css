@@ -23,7 +23,7 @@ body {
 }
 
 .nav-bar:hover, .nav-bar:active {
-    background-color: pink;
+    background-color: #ffc0cb;
     color: black;
 }
 
@@ -60,6 +60,25 @@ body {
     top: 10px;
 }
 
+#intro-container {
+    background-color: black;
+    left: 50px;
+    width: 80%;
+    height: 150px;
+    position: relative;
+    top: 525px;
+}
+
+.intro {
+    color: white;
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-size: 25px;
+    text-align: left;
+    left: 30px;
+    position: absolute;
+}
+
 #diagram-heading{
     color:white;
     font-family: "Bodoni Moda", serif;
@@ -70,11 +89,13 @@ body {
 }
 
 .what-is-pointe-container {
+    position: relative;
+    z-index: +2;
     background-color: pink;
     width: 100%;
-    height: 550px;
+    height: 150px;
     position: relative;
-    top: 500px;
+    top: 450px;
 }
 
 #what-is-pointe-subheading-1 {
@@ -102,15 +123,17 @@ body {
     color: white;
 }
 
-
 #what-is-pointe-info-1 {
     position: absolute;
     text-align: left;
     left: 50px;
-    font-family: "Bodoni Moda", serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 25px;
     right: 50px;
     top: 170px;
+    color: black;
 }
 
 #line-3 {
@@ -123,39 +146,782 @@ body {
     position: absolute;
     text-align: left;
     left: 50px;
-    font-family: "Bodoni Moda", serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 25px;
     right: 50px;
     top: 400px;
 }
 
-#diagram-heading {
-    position: relative;
-    text-align: left;
-    left: 50px;
-    font-family: "Bodoni Moda", serif;
-    font-size: 80px;
-    color: black;
-    top: 20px;
-}
-
-.diagram-area {
-    position: relative;
-    z-index: +2;
-    background-color: white;
-    width: 100%;
-    height: 150px;
-    position: relative;
-    top: 500px;
-}
-
 .active {
-    height: 650px;
+    height: 550px;   
+}
+
+#down-arrow {
+    position: absolute;
+    left: 650px;
+    top: 50px;
+}
+
+#down-arrow:hover {
+    cursor: pointer;
+    width: 3%;
+    top: 40px;
+}
+
+#pointe-shoe-diagram-container {
+    height: 500px;
+    background-color: black;
+    position: relative;
+    top: 400px;
 }
 
 #pointe-shoe-diagram-image {
-    width: 15%;
-    position: absolute;
+    width: 20%;
     top: 200px;
-    left: 50px;
+    position: relative;
+    left: 150px;
 }
+
+#diagram-title {
+    color: white;
+    font-family: "Bodoni Moda", serif;
+    font-size: 80px;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+
+#line-4 {
+    position: absolute;
+    top: 100px;
+}
+
+#diagram-instructions {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-align: right;
+    position: relative;
+    top: -400px;
+    right: 40px;
+}
+
+.popup-button-1 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 330px;
+    left: 160px;
+}
+
+.popup-1 {
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    text-align: center;
+    top: 170px;
+    left: 20px;
+}
+
+#popup-1 {
+    position: absolute;
+}
+
+#popup-text-1 {
+    top: 30px;
+    position: relative;
+}
+
+.popup-close-1 {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    background-color: pink;
+}
+
+.popup-button-2 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 500px;
+    left: 250px;
+}
+
+.popup-2 {
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    text-align: center;
+    top: 480px;
+    left: 20px;
+}
+
+#popup-text-2 {
+    top: 30px;
+    position: relative;
+}
+
+.popup-close-2 {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    background-color: pink;
+}
+
+.popup-button-3 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 620px;
+    left: 260px;
+}
+
+.popup-3 {
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    text-align: center;
+    top: 620px;
+    left: 20px;
+}
+
+#popup-text-3 {
+    top: 30px;
+    position: relative;
+}
+
+.popup-close-3 {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    background-color: pink;
+}
+
+.popup-button-4 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 720px;
+    left: 300px;
+}
+
+.popup-4 {
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    text-align: center;
+    top: 690px;
+    left: 400px;
+}
+
+#popup-text-4 {
+    top: 30px;
+    position: relative;
+}
+
+.popup-close-4 {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    background-color: pink;
+}
+
+.popup-button-5 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 650px;
+    left: 320px;
+}
+
+.popup-5 {
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    text-align: center;
+    top: 650px;
+    left: 400px;
+}
+
+#popup-text-5 {
+    top: 30px;
+    position: relative;
+}
+
+.popup-close-5 {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    background-color: pink;
+}
+
+.popup-button-6 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 600px;
+    left: 370px;
+}
+
+.popup-6 {
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    text-align: center;
+    top: 590px;
+    left: 430px;
+}
+
+#popup-text-6 {
+    top: 30px;
+    position: relative;
+}
+
+.popup-close-6 {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    background-color: pink;
+}
+
+.popup-button-7 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 450px;
+    left: 340px;
+}
+
+.popup-7 {
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    text-align: center;
+    top: 430px;
+    left: 430px;
+}
+
+#popup-text-7 {
+    top: 30px;
+    position: relative;
+}
+
+.popup-close-7 {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    background-color: pink;
+}
+
+.popup-button-8 {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    top: 235px;
+    left: 320px;
+}
+
+.popup-8 {
+    border-radius: 10%;
+    width: 200px;
+    height: 100px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    text-align: center;
+    top: 220px;
+    left: 430px;
+}
+
+#popup-text-8 {
+    top: 30px;
+    position: relative;
+}
+
+.popup-close-8 {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    background-color: pink;
+}
+
+#ballerina-sitting-image {
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    top: 1200px;
+}
+
+.history-of-pointe-container {
+    height: 800px;
+    background-color: black;
+    position: relative;
+    top: 700px;
+}
+
+#ballerina-sitting-image {
+    position: absolute;
+    top: 86px;
+    width: 25%;
+    z-index: 3;
+}
+
+.image-link {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    right: 15px;
+    top: 765px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 4;
+}
+
+.pointe-history-subheading-1 {
+    position: absolute;
+    text-align: left;
+    left: 50px;
+    font-family: "Ballet", serif;
+    font-style:bold;
+    font-size: 100px;
+    top: -5px;
+    color: white;
+}
+
+.pointe-history-subheading-1:hover {
+    color: pink;
+}
+
+.pointe-history-subheading-2 {
+    position: absolute;
+    text-align: left;
+    left: 310px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 80px;
+    color: white;
+    top: 20px;
+}
+
+#line-5 {
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    z-index: 0;
+}
+
+.history-info-subheading-1730s {
+    position: absolute;
+    text-align: left;
+    padding-left: 50px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    color: pink;
+    top: 200;
+}
+
+.history-info-1730s {
+    position: absolute;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    top: 300px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 600px;
+}
+
+.history-info-subheading-1790s {
+    position: absolute;
+    text-align: left;
+    padding-left: 50px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    color: #ffc0cb;
+    top: 500;
+}
+
+.history-info-1790s {
+    position: absolute;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    top: 600px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 600px;
+}
+
+#ballerina-with-posed-arms {
+    position: absolute;
+    top: 830px;
+    width: 25%;
+    z-index: 3;
+    left: 0px;
+}
+
+.image-link-2 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    left: 15px;
+    top: 1510px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 4;
+}
+
+.history-info-subheading-1823 {
+    position: absolute;
+    text-align: left;
+    padding-left: 600px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    color: #ffc0cb;
+    top: 880;
+}
+
+.history-info-1823 {
+    position: absolute;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    top: 980px;
+    color: white;
+    padding-right: 50px;
+    padding-left: 600px;
+}
+
+.history-info-subheading-1832 {
+    position: absolute;
+    text-align: left;
+    padding-left: 600px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    color: #ffc0cb;
+    top: 1140;
+}
+
+.history-info-1832 {
+    position: absolute;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    top: 1230px;
+    color: white;
+    padding-right: 50px;
+    padding-left: 600px;
+}
+
+#pointe-shoes-image {
+    position: absolute;
+    top: 1560px;
+    width: 25%;
+    z-index: 3;
+    right: 0px;
+}
+
+.image-link-3 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    right: 15px;
+    top: 2240px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 4;
+}
+
+.history-info-subheading-1870s-1890s {
+    position: absolute;
+    text-align: left;
+    padding-left: 50px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    color: pink;
+    top: 1580;
+}
+
+.history-info-1870s-1890s {
+    position: absolute;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    top: 1680px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 600px;
+}
+
+.history-info-subheading-1910s-1930s {
+    position: absolute;
+    text-align: left;
+    padding-left: 50px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    color: pink;
+    top: 1950;
+}
+
+.history-info-1910s-1930s {
+    position: absolute;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    top: 2050px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 600px;
+}
+
+#misty-pointe-image {
+    position: absolute;
+    top: 2320px;
+    width: 25%;
+    z-index: 3;
+    left: 0px;
+}
+
+.image-link-4 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    left: 15px;
+    top: 3000px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 4;
+}
+
+.history-info-subheading-1920s-1980s {
+    position: absolute;
+    text-align: left;
+    padding-left: 600px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    color: #ffc0cb;
+    top: 2300;
+}
+
+.history-info-1920s-1980s {
+    position: absolute;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    top: 2400px;
+    color: white;
+    padding-right: 50px;
+    padding-left: 600px;
+}
+
+.history-info-subheading-1990s-Today {
+    position: absolute;
+    text-align: left;
+    padding-left: 600px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    color: #ffc0cb;
+    top: 2710;
+}
+
+.history-info-1990s-Today {
+    position: absolute;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    top: 2810px;
+    color: white;
+    padding-right: 50px;
+    padding-left: 600px;
+}
+
+#hanging-pointe-shoes-image {
+    position: absolute;
+    top: 3100px;
+    width: 25%;
+    z-index: 3;
+    right: 0px;
+}
+
+.image-link-5 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    right: 15px;
+    top: 3780px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 4;
+}
+
+.history-info-subheading-men-en-pointe {
+    position: absolute;
+    text-align: left;
+    padding-left: 50px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    color: pink;
+    top: 3100;
+}
+
+.history-info-men-en-pointe {
+    position: absolute;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    top: 3200px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 600px;
+}
+
+.source-link {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    left: 820px;
+    top: 100px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+

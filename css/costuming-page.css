@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 #ballet-shoes {
@@ -41,4 +42,335 @@ body {
 
 .title-cursive:hover {
     color: pink;
+}
+
+#costuming-intro-container {
+    background-color: black;
+    left: 50px;
+    width: 80%;
+    height: 150px;
+    position: relative;
+    top: 400px;
+}
+
+.costuming-intro {
+    color: white;
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-size: 25px;
+    text-align: left;
+    left: 30px;
+    position: absolute;
+}
+
+.costuming-info-container {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    top: 400px;
+}
+
+.source-link-1 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    left: 90px;
+    top: 700px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.source-link-2 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    left: 340px;
+    top: 700px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.source-link-3 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    left: 615px;
+    top: 700px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.break {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.image {
+    object-fit:cover;
+    display: block;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;    
+    text-align: center;
+}
+
+.box-left:hover .image {
+    opacity: .10;
+}
+
+.box-left:hover .middle {
+    opacity: 1;
+}
+
+.box-right:hover .image {
+    opacity: .10;
+}
+
+.box-right:hover .middle {
+    opacity: 1;
+}
+
+.box-middle:hover .image {
+    opacity: .10;
+}
+
+.box-middle:hover .middle {
+    opacity: 1;
+}
+
+.heading {
+    position: absolute;
+    top: -600px;
+    left: 30px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 60px;
+    color: black;
+}
+
+.heading-2 {
+    position: absolute;
+    font-family: "Ballet", serif;
+    font-size: 80px;
+    color: pink;
+    top: -580px;
+    left: 215px;
+}
+
+.body-copy {
+    position: relative;
+    color: black;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 150px;
+    top: -300px;
+}
+
+.image-source-link-1 {
+    position: absolute;
+    color: grey;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: -43px;
+    right: 30px;
+}
+
+.box-left {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+}
+
+.box-middle {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 525px;
+}
+
+.box-right {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    right: 50px;
+}
+
+.box-left-2:hover .image {
+    opacity: .10;
+}
+
+.box-left-2:hover .middle {
+    opacity: 1;
+}
+
+.box-right-2:hover .image {
+    opacity: .10;
+}
+
+.box-right-2:hover .middle {
+    opacity: 1;
+}
+
+.box-middle-2:hover .image {
+    opacity: .10;
+}
+
+.box-middle-2:hover .middle {
+    opacity: 1;
+}
+
+.box-left-2 {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 650px;
+}
+
+.box-middle-2 {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 525px;
+    top: 650px;
+}
+
+.box-right-2 {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    right: 50px;
+    top: 650px;
+}
+
+.box-left-3:hover .image {
+    opacity: .10;
+}
+
+.box-left-3:hover .middle {
+    opacity: 1;
+}
+
+.box-right-3:hover .image {
+    opacity: .10;
+}
+
+.box-right-3:hover .middle {
+    opacity: 1;
+}
+
+.box-middle-3:hover .image {
+    opacity: .10;
+}
+
+.box-middle-3:hover .middle {
+    opacity: 1;
+}
+
+
+.box-left-3 {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 1300px;
+}
+
+.box-middle-3 {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 525px;
+    top: 1300px;
+}
+
+.box-right-3 {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    right: 50px;
+    top: 1300px;
+}
+
+.box-left-4:hover .image {
+    opacity: .10;
+}
+
+.box-left-4:hover .middle {
+    opacity: 1;
+}
+
+.box-right-4:hover .image {
+    opacity: .10;
+}
+
+.box-right-4:hover .middle {
+    opacity: 1;
+}
+
+.box-middle-4:hover .image {
+    opacity: .10;
+}
+
+.box-middle-4:hover .middle {
+    opacity: 1;
+}
+
+
+.box-left-4 {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 1950px;
+}
+
+.box-middle-4 {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 525px;
+    top: 1950px;
+}
+
+.box-right-4 {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    right: 50px;
+    top: 1950px;
 }

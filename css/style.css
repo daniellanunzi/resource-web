@@ -60,7 +60,7 @@ body {
 }
 
 .title-cursive:hover {
-    color: pink;
+    color: #ffc0cb;
 }
 
 #headline {
@@ -206,9 +206,9 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
     top: -90px;
 }
 
@@ -251,4 +251,13 @@ body {
     animation: marquee 5s linear infinite;
     position: absolute;
     top: 3190px;
+}
+
+@keyframes scrolling-text {
+    0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(-100%, 0);
+      }
 }
