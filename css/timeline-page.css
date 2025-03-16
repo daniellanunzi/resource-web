@@ -233,7 +233,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    top: -310px;
+    top: -280px;
     right: -160px;
 }
 
@@ -244,7 +244,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    top: -185px;
+    top: -170px;
     right: -160px;
 }
 
@@ -255,7 +255,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    top: -245px;
+    top: -260px;
     right: -160px;
 }
 
@@ -278,6 +278,28 @@ body {
     font-weight: 400;
     font-style: normal;
     top: -170px;
+    right: -160px;
+}
+
+.image-7-source-link {
+    position: relative;
+    color: grey;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: -200px;
+    right: -160px;
+}
+
+.image-8-source-link {
+    position: relative;
+    color: grey;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: -150px;
     right: -160px;
 }
 
